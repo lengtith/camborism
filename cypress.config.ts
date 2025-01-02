@@ -3,9 +3,11 @@ import fs from "fs";
 
 export default defineConfig({
   video: true,
+  screenshotsFolder: "cypress/screenshots", // Specify folder for screenshots
+  videosFolder: "cypress/videos", // Specify folder for videos
   e2e: {
     baseUrl: "http://localhost:3000",
-    specPattern: "cypress/e2e/**/*.cy.ts",
+    // specPattern: "cypress/e2e/**/*.cy.ts",
     setupNodeEvents(on, config) {
       on(
         "after:spec",

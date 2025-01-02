@@ -16,7 +16,7 @@ type DropdownProps = {
 const Dropdown = ({ user, handleSignOut }: DropdownProps) => {
   return (
     <DropdownMain placement="bottom-end">
-      <DropdownTrigger className="profile">
+      <DropdownTrigger data-testid="profile" className="profile">
         <Avatar
           isBordered
           as="button"

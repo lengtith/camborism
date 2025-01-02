@@ -35,3 +35,13 @@
 //     }
 //   }
 // }
+
+Cypress.Commands.add("getLocalStorage", function () {
+  cy.window().then((window) => {
+    const value = window.localStorage.getItem("view-layout");
+    expect(value).to.equal(value);
+  });
+});
+Cypress.Commands.add("getButton", function (context) {
+  cy.get(context).should("exist");
+});
