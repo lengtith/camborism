@@ -8,36 +8,14 @@ on:
 jobs:
   cypress-run:
     runs-on: ubuntu-24.04
-
     steps:
-      # Step 1: Checkout the code
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
-
-      # Step 2: Set up Node.js
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "20.10.0"
-
-      # Step 3: Install dependencies
-      - name: Install dependencies
-        run: npm install
-
-      # Step 4: Build the project (optional)
-      - name: Build the project
-        run: npm run build
-        # continue-on-error: true  # Continue even if build fails, only if needed
-
-      # Step 5: Start the app in the background
-      - name: Start the app in the background
-        run: |
-          npm start &
-          sleep 10
-
-      # Step 6: Run Cypress tests
-      - name: Run Cypress tests
+      # Install npm dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
+          build: npm run build
+          start: npm start
           browser: chrome
-          start: false # Don't start the app again, it's already running
