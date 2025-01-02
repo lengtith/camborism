@@ -17,11 +17,7 @@
         "Champs-Elysées",
         "Notre-Dame Cathedral"
       ],
-      "local_dishes": [
-        "Croissant",
-        "Coq au Vin",
-        "Macarons"
-      ],
+      "local_dishes": ["Croissant", "Coq au Vin", "Macarons"],
       "activities": [
         "Visit art galleries",
         "Cruise along the Seine",
@@ -45,11 +41,7 @@
         "Asakusa Senso-ji Temple",
         "Akihabara"
       ],
-      "local_dishes": [
-        "Sushi",
-        "Ramen",
-        "Tempura"
-      ],
+      "local_dishes": ["Sushi", "Ramen", "Tempura"],
       "activities": [
         "Shopping in Harajuku",
         "Visiting themed cafes",
@@ -73,11 +65,7 @@
         "Central Park",
         "Metropolitan Museum of Art"
       ],
-      "local_dishes": [
-        "Pizza",
-        "Bagels",
-        "Cheesecake"
-      ],
+      "local_dishes": ["Pizza", "Bagels", "Cheesecake"],
       "activities": [
         "Broadway shows",
         "Fifth Avenue shopping",
@@ -101,11 +89,7 @@
         "Big Ben",
         "Westminster Abbey"
       ],
-      "local_dishes": [
-        "Fish and Chips",
-        "Full English Breakfast",
-        "Pies"
-      ],
+      "local_dishes": ["Fish and Chips", "Full English Breakfast", "Pies"],
       "activities": [
         "River Thames cruises",
         "Shopping on Oxford Street",
@@ -129,11 +113,7 @@
         "Pantheon",
         "Trevi Fountain"
       ],
-      "local_dishes": [
-        "Pasta",
-        "Pizza",
-        "Gelato"
-      ],
+      "local_dishes": ["Pasta", "Pizza", "Gelato"],
       "activities": [
         "Exploring ancient ruins",
         "Attending Papal Audience",
@@ -185,16 +165,8 @@
         "Sydney Harbour Bridge",
         "Taronga Zoo"
       ],
-      "local_dishes": [
-        "Meat Pie",
-        "Vegemite on Toast",
-        "Pavlova"
-      ],
-      "activities": [
-        "Harbor cruises",
-        "Coastal walks",
-        "Surfing"
-      ]
+      "local_dishes": ["Meat Pie", "Vegemite on Toast", "Pavlova"],
+      "activities": ["Harbor cruises", "Coastal walks", "Surfing"]
     },
     {
       "id": "8",
@@ -213,11 +185,7 @@
         "Dubai Creek",
         "Dubai Desert Safari"
       ],
-      "local_dishes": [
-        "Shawarma",
-        "Falafel",
-        "Dates"
-      ],
+      "local_dishes": ["Shawarma", "Falafel", "Dates"],
       "activities": [
         "Shopping in souks",
         "Dune bashing",
@@ -241,11 +209,7 @@
         "Cape of Good Hope",
         "Victoria & Alfred Waterfront"
       ],
-      "local_dishes": [
-        "Biltong",
-        "Bobotie",
-        "Malva Pudding"
-      ],
+      "local_dishes": ["Biltong", "Bobotie", "Malva Pudding"],
       "activities": [
         "Wine tasting in Stellenbosch",
         "Hiking in nature reserves",
@@ -269,11 +233,7 @@
         "Sugarloaf Mountain",
         "Lapa Arches"
       ],
-      "local_dishes": [
-        "Feijoada",
-        "Caipirinha",
-        "Açaí Bowl"
-      ],
+      "local_dishes": ["Feijoada", "Caipirinha", "Açaí Bowl"],
       "activities": [
         "Samba dance lessons",
         "Cable car ride to Sugarloaf Mountain",
@@ -353,11 +313,7 @@
         "Sentosa Island",
         "Chinatown"
       ],
-      "local_dishes": [
-        "Hainanese Chicken Rice",
-        "Chilli Crab",
-        "Laksa"
-      ],
+      "local_dishes": ["Hainanese Chicken Rice", "Chilli Crab", "Laksa"],
       "activities": [
         "Night safari at Singapore Zoo",
         "Visit to Universal Studios Singapore",
@@ -381,11 +337,7 @@
         "Casa Batlló",
         "Barri Gòtic (Gothic Quarter)"
       ],
-      "local_dishes": [
-        "Tapas",
-        "Paella",
-        "Crema Catalana (Catalan Custard)"
-      ],
+      "local_dishes": ["Tapas", "Paella", "Crema Catalana (Catalan Custard)"],
       "activities": [
         "Gaudi architecture tour",
         "Visit to Picasso Museum",
@@ -409,11 +361,7 @@
         "N Seoul Tower",
         "Hongdae"
       ],
-      "local_dishes": [
-        "Bibimbap",
-        "Kimchi",
-        "Korean BBQ"
-      ],
+      "local_dishes": ["Bibimbap", "Kimchi", "Korean BBQ"],
       "activities": [
         "K-pop dance class",
         "Visit to DMZ (Demilitarized Zone)",
@@ -437,11 +385,7 @@
         "Hong Kong Disneyland",
         "Temple Street Night Market"
       ],
-      "local_dishes": [
-        "Dim Sum",
-        "Roast Goose",
-        "Egg Waffles"
-      ],
+      "local_dishes": ["Dim Sum", "Roast Goose", "Egg Waffles"],
       "activities": [
         "Star Ferry ride",
         "Visit to Ocean Park",
@@ -465,11 +409,7 @@
         "Hofburg Palace",
         "Naschmarkt"
       ],
-      "local_dishes": [
-        "Wiener Schnitzel",
-        "Sachertorte",
-        "Apfelstrudel"
-      ],
+      "local_dishes": ["Wiener Schnitzel", "Sachertorte", "Apfelstrudel"],
       "activities": [
         "Visit to Schönbrunn Zoo",
         "Café-hopping",
@@ -493,11 +433,7 @@
         "Anne Frank House",
         "Dam Square"
       ],
-      "local_dishes": [
-        "Herring",
-        "Stroopwafels",
-        "Bitterballen"
-      ],
+      "local_dishes": ["Herring", "Stroopwafels", "Bitterballen"],
       "activities": [
         "Biking along canals",
         "Visit to Keukenhof Gardens",
@@ -521,11 +457,7 @@
         "Ponte Vecchio",
         "Piazzale Michelangelo"
       ],
-      "local_dishes": [
-        "Florentine Steak",
-        "Ribollita (Tuscan Soup)",
-        "Gelato"
-      ],
+      "local_dishes": ["Florentine Steak", "Ribollita (Tuscan Soup)", "Gelato"],
       "activities": [
         "Climb to the top of Florence Cathedral",
         "Explore Palazzo Pitti",
@@ -577,11 +509,7 @@
         "Topkapi Palace",
         "Bosphorus Bridge"
       ],
-      "local_dishes": [
-        "Kebab",
-        "Baklava",
-        "Turkish Delight"
-      ],
+      "local_dishes": ["Kebab", "Baklava", "Turkish Delight"],
       "activities": [
         "Relax in a Turkish hammam",
         "Visit the Basilica Cistern",
@@ -605,11 +533,7 @@
         "Koutoubia Mosque",
         "Saadian Tombs"
       ],
-      "local_dishes": [
-        "Tagine",
-        "Couscous",
-        "Mint Tea"
-      ],
+      "local_dishes": ["Tagine", "Couscous", "Mint Tea"],
       "activities": [
         "Exploring souks",
         "Camel ride in the desert",
@@ -633,11 +557,7 @@
         "Ancient Agora",
         "National Archaeological Museum"
       ],
-      "local_dishes": [
-        "Moussaka",
-        "Souvlaki",
-        "Greek Salad"
-      ],
+      "local_dishes": ["Moussaka", "Souvlaki", "Greek Salad"],
       "activities": [
         "Visiting ancient sites",
         "Sunset at Cape Sounion",
@@ -661,11 +581,7 @@
         "Arashiyama Bamboo Grove",
         "Nijo Castle"
       ],
-      "local_dishes": [
-        "Kaiseki",
-        "Matcha Green Tea",
-        "Yudofu (Tofu Hot Pot)"
-      ],
+      "local_dishes": ["Kaiseki", "Matcha Green Tea", "Yudofu (Tofu Hot Pot)"],
       "activities": [
         "Wearing a kimono",
         "Hanami (Cherry Blossom Viewing)",
@@ -689,11 +605,7 @@
         "Temple of Literature",
         "Water Puppet Theatre"
       ],
-      "local_dishes": [
-        "Pho",
-        "Bun Cha",
-        "Egg Coffee"
-      ],
+      "local_dishes": ["Pho", "Bun Cha", "Egg Coffee"],
       "activities": [
         "Cyclo tour of Old Quarter",
         "Visit to Hoa Lo Prison",
@@ -745,11 +657,7 @@
         "Ubud Monkey Forest",
         "Mount Batur"
       ],
-      "local_dishes": [
-        "Nasi Goreng",
-        "Babi Guling",
-        "Balinese Satay"
-      ],
+      "local_dishes": ["Nasi Goreng", "Babi Guling", "Balinese Satay"],
       "activities": [
         "Surfing in Kuta",
         "Rice terrace trekking in Tegalalang",
@@ -773,11 +681,7 @@
         "Toronto Islands",
         "Kensington Market"
       ],
-      "local_dishes": [
-        "Poutine",
-        "Butter Tart",
-        "Peameal Bacon Sandwich"
-      ],
+      "local_dishes": ["Poutine", "Butter Tart", "Peameal Bacon Sandwich"],
       "activities": [
         "Exploring St. Lawrence Market",
         "Cycling on Toronto's waterfront",
@@ -801,11 +705,7 @@
         "Sacred Valley",
         "Qorikancha"
       ],
-      "local_dishes": [
-        "Cuy (Guinea Pig)",
-        "Lomo Saltado",
-        "Ceviche"
-      ],
+      "local_dishes": ["Cuy (Guinea Pig)", "Lomo Saltado", "Ceviche"],
       "activities": [
         "Inca Trail trekking",
         "Visit to Pisac Market",
@@ -829,11 +729,7 @@
         "Rainbow Street",
         "Jordan Archaeological Museum"
       ],
-      "local_dishes": [
-        "Mansaf",
-        "Falafel",
-        "Knafeh"
-      ],
+      "local_dishes": ["Mansaf", "Falafel", "Knafeh"],
       "activities": [
         "Visit to Jerash",
         "Shopping in local souks",

@@ -281,7 +281,7 @@ export function Destination() {
           })}
         </div>
         {isLoading && (
-          <div className="flex w-full justify-center">
+          <div className="flex w-full justify-center py-5">
             <Spinner color="white" />
           </div>
         )}
