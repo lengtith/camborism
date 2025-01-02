@@ -1,6 +1,6 @@
 "use client";
 
-import React, { FormEvent, useEffect, useState } from "react";
+import React, { FormEvent, useState } from "react";
 import {
   Form,
   Input,
@@ -12,6 +12,7 @@ import {
   AutocompleteItem
 } from "@nextui-org/react";
 import { displayToast } from "@/src/lib/toast";
+import { countries as listCountries } from "../../../../../data.json";
 
 type CountryProps = {
   name: string;
@@ -22,17 +23,7 @@ type CountryProps = {
 
 export default function App() {
   const [formData, setFormData] = React.useState<any>(null);
-  const [countries, setCountries] = useState<CountryProps[]>([]);
-
-  useEffect(() => {
-    const fetchCountries = async () => {
-      const response = await fetch(`http://localhost:8000/countries`);
-      const data = await response.json();
-      setCountries(data);
-    };
-
-    fetchCountries();
-  }, []);
+  const [countries, setCountries] = useState<CountryProps[]>(listCountries);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
