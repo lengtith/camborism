@@ -1,4 +1,2 @@
-import SearchBar from "./SearchBar";
-
 export * from "./Dropdown";
-export { SearchBar };
+export * from "./ListDetination";

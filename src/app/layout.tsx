@@ -7,6 +7,7 @@ const Providers = dynamic(() => import("./providers"));
 import { UserProvider } from "../context/userContext";
 import { getSession } from "../lib/lib";
 import { Header } from "../components";
+import { StateProvider } from "../context/stateContext";
 const Toaster = dynamic(() =>
   import("react-hot-toast").then((toast) => toast.Toaster)
 );
@@ -38,13 +39,15 @@ export default async function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`${inter.className}`}>
-        <Providers>
-          <UserProvider initialUser={initialUser}>
-            <Header />
-            {children}
-            <Toaster position="bottom-right" />
-          </UserProvider>
-        </Providers>
+        <StateProvider>
+          <Providers>
+            <UserProvider initialUser={initialUser}>
+              <Header />
+              {children}
+              <Toaster position="bottom-right" />
+            </UserProvider>
+          </Providers>
+        </StateProvider>
       </body>
     </html>
   );
